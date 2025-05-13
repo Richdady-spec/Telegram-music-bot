@@ -1,7 +1,7 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
-TOKEN = "ВАШ_ТОКЕН_СЮДА"  # ← сюда вставь токен от BotFather
+TOKEN ="8064040089:AAFbR4od99_iO7mW6afW3jVrhOKMv1xrej8" # ← сюда вставь токен от BotFather
 
 REACTIONS = ["❤️‍🔥", "🔥", "🫦", "🌪"]
 music_storage = {}  # chat_id -> list of (file_id, reactions)
